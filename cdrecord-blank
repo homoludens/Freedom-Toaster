@@ -1,0 +1,91 @@
+error: cdrecord: Operation not permitted. Warning: Cannot raise RLIMIT_MEMLOCK limits.
+error: cdrecord: Cannot allocate memory. WARNING: Cannot do mlockall(2).
+
+error: cdrecord: WARNING: This causes a high risk for buffer underruns.
+
+error: cdrecord: Operation not permitted. WARNING: Cannot set RR-scheduler
+
+error: cdrecord: Permission denied. WARNING: Cannot set priority using setpriority().
+
+error: cdrecord: WARNING: This causes a high risk for buffer underruns.
+
+error: scsidev: '1000,0,0'
+
+error: scsibus: 1000 target: 0 lun: 0
+
+error: Linux sg driver version: 3.5.27
+
+error: SCSI buffer size: 64512
+
+Cdrecord-ProDVD-Clone 2.01.01a25 (i686-pc-linux-gnu) Copyright (C) 1995-2006 JÃÂ¶rg Schilling
+TOC Type: 1 = CD-ROM
+Using libscg version 'schily-0.9'.
+atapi: 1
+Device type    : Removable CD-ROM
+Version        : 0
+Response Format: 2
+Capabilities   : 
+Vendor_info    : 'HL-DT-ST'
+Identifikation : 'DVDRAM GSA-T10N '
+Revision       : 'PW03'
+Device seems to be: Generic mmc2 DVD-R/DVD-RW/DVD-RAM.
+Current: CD-RW
+Profile: DVD-RAM 
+Profile: DVD-R sequential recording 
+Profile: DVD-R/DL sequential recording 
+Profile: DVD-R/DL layer jump recording 
+Profile: DVD-RW sequential recording 
+Profile: DVD-RW restricted overwrite 
+Profile: DVD+RW 
+Profile: DVD+R 
+Profile: DVD+R/DL 
+Profile: DVD-ROM 
+Profile: CD-R 
+Profile: CD-RW (current)
+Profile: CD-ROM 
+Profile: Removable Disk 
+Using generic SCSI-3/mmc   CD-R/CD-RW driver (mmc_cdr).
+Driver flags   : MMC-3 SWABAUDIO BURNFREE 
+Supported modes: TAO PACKET SAO SAO/R96P SAO/R96R RAW/R16 RAW/R96P RAW/R96R LAYER_JUMP
+Drive buf size : 1053696 = 1029 KB
+Drive pbuf size: 1966080 = 1920 
+KB
+
+Current Secsize: 2048
+ATIP info from disk:
+  Indicated writing power: 3
+  Reference speed: 6
+Disk Is not unrestricted
+Disk Is erasable
+  Disk sub type: High speed Rewritable (CAV) media (1)
+  ATIP start of lead in:  -11745 (97:25/30)
+  ATIP start of lead out: 359847 (79:59/72)
+  1T speed low:  4 1T speed high: 10
+  2T speed low:  4 2T speed high:  0 (reserved val  6)
+  power mult factor: 1 5
+  recommended erase/write power: 5
+  A1 values: 24 1A D8
+  A2 values: 26 B2 4A
+Disk type:    Phase change
+Manuf. index: 40
+Manufacturer: INFODISC Technology Co., Ltd.
+
+    Capacity  Blklen/Sparesz.  Type
+           0             2048  No Media Present or Unknown Capacity
+Starting to write CD/DVD at speed 10 in real BLANK mode for single session.
+Last chance to quit, starting real write in 9 seconds.
+   8 seconds.
+   7 seconds.
+   6 seconds.
+   5 seconds.
+   4 seconds.
+   3 seconds.
+   2 seconds.
+   1 seconds.
+   0 seconds. Operation starts.
+
+Performing OPC...
+
+Blanking PMA, TOC, pregap
+
+Blanking time:   27.039s

@@ -1,0 +1,19 @@
+<img style=margin:5px;float:left; src=1.jpg alt="Screenshot of the Extension example" />
+Ovde se nalaze najpopularnije distibucije linuxa.
+svaku mozete narezati i isprobati.
+Ukoliko prvi put zelite da probate linux, moja preporuka je Ubuntu.
+Disk koji cete dobiti je takozvani \"Live CD/Dvd\" - mozete ga koristiti bez instaliranja.
+
+
+Finding the PyQt Examples and Demos launcher
+============================================
+
+On Windows:
+
+The launcher can be accessed via the Windows Start menu. Select the menu
+entry entitled "Examples and Demos" entry in the submenu containing PyQt4.
+
+On all platforms:
+
+The source code for the launcher can be found in the examples/tools/qtdemo
+directory in the PyQt package.

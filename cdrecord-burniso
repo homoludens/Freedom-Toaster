@@ -1,0 +1,1523 @@
+error: cdrecord: No write mode specified.
+cdrecord: Asuming -sao mode.
+cdrecord: If your drive does not accept -sao, try -tao.
+cdrecord: Future versions of cdrecord may have different drive dependent defaults.
+cdrecord: Operation not permitted. Warning: Cannot raise RLIMIT_MEMLOCK limits.cdrecord: Cannot allocate memory. WARNING: Cannot do mlockall(2).
+cdrecord: WARNING: This causes a high risk for buffer underruns.
+cdrecord: Operation not permitted. WARNING: Cannot set RR-scheduler
+cdrecord: Permission denied. WARNING: Cannot set priority using setpriority().
+cdrecord: WARNING: This causes a high risk for buffer underruns.
+scsidev: '1000,0,0'
+scsibus: 1000 target: 0 lun: 0
+
+error: Linux sg driver version: 3.5.27
+
+error: SCSI buffer size: 64512
+
+Cdrecord-ProDVD-Clone 2.01.01a25 (i686-pc-linux-gnu) Copyright (C) 1995-2006 JÃÂ¶rg Schilling
+TOC Type: 1 = CD-ROM
+Using libscg version 'schily-0.9'.
+atapi: 1
+Device type    : Removable CD-ROM
+Version        : 0
+Response Format: 2
+Capabilities   : 
+Vendor_info    : 'HL-DT-ST'
+Identifikation : 'DVDRAM GSA-T10N '
+Revision       : 'PW03'
+Device seems to be: Generic mmc2 DVD-R/DVD-RW/DVD-RAM.
+Current: CD-RW
+Profile: DVD-RAM 
+Profile: DVD-R sequential recording 
+Profile: DVD-R/DL sequential recording 
+Profile: DVD-R/DL layer jump recording 
+Profile: DVD-RW sequential recording 
+Profile: DVD-RW restricted overwrite 
+Profile: DVD+RW 
+Profile: DVD+R 
+Profile: DVD+R/DL 
+Profile: DVD-ROM 
+Profile: CD-R 
+Profile: CD-RW (current)
+Profile: CD-ROM 
+Profile: Removable Disk 
+Using generic SCSI-3/mmc   CD-R/CD-RW driver (mmc_cdr).
+Driver flags   : MMC-3 SWABAUDIO BURNFREE 
+Supported modes: TAO PACKET SAO SAO/R96P SAO/R96R RAW/R16 RAW/R96P RAW/R96R LAYER_JUMP
+Drive buf size : 1053696 = 1029 KB
+Drive pbuf size: 1966080 = 1920 
+KB
+FIFO size      : 4194304 = 4096 KB
+
+error: cdrecord: Operation not permitted. WARNING: Cannot set RR-scheduler
+
+error: cdrecord: Permission denied. WARNING: Cannot set priority using setpriority().
+
+error: cdrecord: WARNING: This causes a high risk for buffer underruns.
+
+Track 01: data   701 MB         padsize:   30 KB
+Total size:      805 MB (79:48.94) = 359171 sectors
+Lout start:      805 MB (79:50/71) = 359171 sectors
+Current Secsize: 2048
+ATIP info from disk:
+  Indicated writing power: 3
+  Reference speed: 6
+Disk Is not unrestricted
+Disk Is erasable
+  Disk sub type: High speed Rewritable (CAV) media (1)
+  ATIP start of lead in:  -11745 (97:25/30)
+  ATIP start of lead out: 359847 (79:59/72)
+  1T speed low:  4 1T speed high: 10
+  2T speed low:  4 2T speed high:  0 (reserved val  6)
+  power mult factor: 1 5
+  recommended erase/write power: 5
+  A1 values: 24 1A D8
+  A2 values: 26 B2 4A
+Disk type:    Phase change
+Manuf. index: 40
+Manufacturer: INFODISC Technology Co., Ltd.
+
+    Capacity  Blklen/Sparesz.  Type
+           0             2048  No Media Present or Unknown Capacity
+Blocks total: 359847 Blocks current: 359847 Blocks remaining: 676
+Starting to write CD/DVD at speed 10 in dummy SAO mode for single session.
+Last chance to quit, starting dummy write in 9 seconds.
+   8 seconds.
+   7 seconds.
+   6 seconds.
+   5 seconds.
+   4 seconds.
+   3 seconds.
+   2 seconds.
+   1 seconds.
+   0 seconds. Operation starts.
+Waiting for reader process to fill input buffer ... 
+input buffer ready.
+BURN-Free is ON.
+Turning BURN-Free off
+Sending CUE sheet...
+
+error: cdrecord: WARNING: Drive returns wrong startsec (0) using -150
+
+Writing pregap for track 1 at -150
+Starting new track at sector: 0
+
+
+Track 01:    0 of  701 MB written.
+
+Track 01:    1 of  701 MB written (fifo 100%) [buf  99%]   8.9x.
+
+Track 01:    2 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:    3 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:    4 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:    5 of  701 MB written (fifo 100%) [buf 100%]  10.8x.
+
+Track 01:    6 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:    7 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:    8 of  701 MB written (fifo 100%) [buf 100%]  10.4x.
+
+Track 01:    9 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:   10 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:   11 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:   12 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:   13 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:   14 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:   15 of  701 MB written (fifo 100%) [buf 100%]  10.7x.
+
+Track 01:   16 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:   17 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:   18 of  701 MB written (fifo 100%) [buf  98%]  10.3x.
+
+Track 01:   19 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:   20 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:   21 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:   22 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:   23 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:   24 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:   25 of  701 MB written (fifo 100%) [buf 100%]  10.6x.
+
+Track 01:   26 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:   27 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:   28 of  701 MB written (fifo 100%) [buf 100%]  10.3x.
+
+Track 01:   29 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:   30 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:   31 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:   32 of  701 MB written (fifo 100%) [buf  99%]  10.1x.
+
+Track 01:   33 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:   34 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:   35 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:   36 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:   37 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:   38 of  701 MB written (fifo 100%) [buf 100%]  10.8x.
+
+Track 01:   39 of  701 MB written (fifo 100%) [buf  97%]  10.1x.
+
+Track 01:   40 of  701 MB written (fifo 100%) [buf  99%]  11.0x.
+
+Track 01:   41 of  701 MB written (fifo 100%) [buf 100%]  10.4x.
+
+Track 01:   42 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:   43 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:   44 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:   45 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:   46 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:   47 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:   48 of  701 MB written (fifo 100%) [buf 100%]  10.7x.
+
+Track 01:   49 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:   50 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:   51 of  701 MB written (fifo 100%) [buf 100%]  10.3x.
+
+Track 01:   52 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:   53 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:   54 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:   55 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:   56 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:   57 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:   58 of  701 MB written (fifo 100%) [buf 100%]  10.6x.
+
+Track 01:   59 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:   60 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:   61 of  701 MB written (fifo 100%) [buf 100%]  10.2x.
+
+Track 01:   62 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:   63 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:   64 of  701 MB written (fifo 100%) [buf 100%]  10.5x.
+
+Track 01:   65 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:   66 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:   67 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:   68 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:   69 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:   70 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:   71 of  701 MB written (fifo 100%) [buf 100%]  10.8x.
+
+Track 01:   72 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:   73 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:   74 of  701 MB written (fifo 100%) [buf 100%]  10.4x.
+
+Track 01:   75 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:   76 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:   77 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:   78 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:   79 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:   80 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:   81 of  701 MB written (fifo 100%) [buf 100%]  10.6x.
+
+Track 01:   82 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:   83 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:   84 of  701 MB written (fifo 100%) [buf 100%]  10.3x.
+
+Track 01:   85 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:   86 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:   87 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:   88 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:   89 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:   90 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:   91 of  701 MB written (fifo 100%) [buf 100%]  10.5x.
+
+Track 01:   92 of  701 MB written (fifo 100%) [buf  99%]  10.1x.
+
+Track 01:   93 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:   94 of  701 MB written (fifo 100%) [buf 100%]  10.2x.
+
+Track 01:   95 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:   96 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:   97 of  701 MB written (fifo 100%) [buf 100%]  10.5x.
+
+Track 01:   98 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:   99 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  100 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  101 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  102 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  103 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  104 of  701 MB written (fifo 100%) [buf 100%]  10.7x.
+
+Track 01:  105 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  106 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  107 of  701 MB written (fifo 100%) [buf 100%]  10.4x.
+
+Track 01:  108 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  109 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  110 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  111 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  112 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  113 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  114 of  701 MB written (fifo 100%) [buf 100%]  10.6x.
+
+Track 01:  115 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  116 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  117 of  701 MB written (fifo 100%) [buf 100%]  10.3x.
+
+Track 01:  118 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  119 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  120 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  121 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  122 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  123 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  124 of  701 MB written (fifo 100%) [buf 100%]  10.5x.
+
+Track 01:  125 of  701 MB written (fifo 100%) [buf  99%]  10.1x.
+
+Track 01:  126 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  127 of  701 MB written (fifo 100%) [buf 100%]  10.8x.
+
+Track 01:  128 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  129 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  130 of  701 MB written (fifo 100%) [buf 100%]  10.5x.
+
+Track 01:  131 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  132 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  133 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  134 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  135 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  136 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  137 of  701 MB written (fifo 100%) [buf 100%]  10.7x.
+
+Track 01:  138 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  139 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  140 of  701 MB written (fifo 100%) [buf 100%]  10.4x.
+
+Track 01:  141 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  142 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  143 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  144 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  145 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  146 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  147 of  701 MB written (fifo 100%) [buf 100%]  10.6x.
+
+Track 01:  148 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  149 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  150 of  701 MB written (fifo 100%) [buf 100%]  10.3x.
+
+Track 01:  151 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  152 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  153 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  154 of  701 MB written (fifo 100%) [buf  99%]  10.1x.
+
+Track 01:  155 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  156 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  157 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  158 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  159 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  160 of  701 MB written (fifo 100%) [buf 100%]  10.8x.
+
+Track 01:  161 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  162 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  163 of  701 MB written (fifo 100%) [buf 100%]  10.4x.
+
+Track 01:  164 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  165 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  166 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  167 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  168 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  169 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  170 of  701 MB written (fifo 100%) [buf 100%]  10.7x.
+
+Track 01:  171 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  172 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  173 of  701 MB written (fifo 100%) [buf 100%]  10.4x.
+
+Track 01:  174 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  175 of  701 MB written (fifo 100%) [buf  97%]  10.2x.
+
+Track 01:  176 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  177 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  178 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  179 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  180 of  701 MB written (fifo 100%) [buf 100%]  10.6x.
+
+Track 01:  181 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  182 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  183 of  701 MB written (fifo 100%) [buf 100%]  10.3x.
+
+Track 01:  184 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  185 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  186 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  187 of  701 MB written (fifo 100%) [buf  99%]  10.1x.
+
+Track 01:  188 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  189 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  190 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  191 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  192 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  193 of  701 MB written (fifo 100%) [buf 100%]  10.8x.
+
+Track 01:  194 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  195 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  196 of  701 MB written (fifo 100%) [buf 100%]  10.4x.
+
+Track 01:  197 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  198 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  199 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  200 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  201 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  202 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  203 of  701 MB written (fifo 100%) [buf 100%]  10.7x.
+
+Track 01:  204 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  205 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  206 of  701 MB written (fifo 100%) [buf 100%]  10.3x.
+
+Track 01:  207 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  208 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  209 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  210 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  211 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  212 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  213 of  701 MB written (fifo 100%) [buf 100%]  10.6x.
+
+Track 01:  214 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  215 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  216 of  701 MB written (fifo 100%) [buf 100%]  10.2x.
+
+Track 01:  217 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  218 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  219 of  701 MB written (fifo 100%) [buf 100%]  10.5x.
+
+Track 01:  220 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  221 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  222 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  223 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  224 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  225 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  226 of  701 MB written (fifo 100%) [buf 100%]  10.8x.
+
+Track 01:  227 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  228 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  229 of  701 MB written (fifo 100%) [buf 100%]  10.4x.
+
+Track 01:  230 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  231 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  232 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  233 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  234 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  235 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  236 of  701 MB written (fifo 100%) [buf 100%]  10.6x.
+
+Track 01:  237 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  238 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  239 of  701 MB written (fifo 100%) [buf 100%]  10.3x.
+
+Track 01:  240 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  241 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  242 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  243 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  244 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  245 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  246 of  701 MB written (fifo 100%) [buf 100%]  10.5x.
+
+Track 01:  247 of  701 MB written (fifo 100%) [buf  99%]  10.1x.
+
+Track 01:  248 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  249 of  701 MB written (fifo 100%) [buf 100%]  10.2x.
+
+Track 01:  250 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  251 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  252 of  701 MB written (fifo 100%) [buf 100%]  10.5x.
+
+Track 01:  253 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  254 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  255 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  256 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  257 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  258 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  259 of  701 MB written (fifo 100%) [buf 100%]  10.7x.
+
+Track 01:  260 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  261 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  262 of  701 MB written (fifo 100%) [buf 100%]  10.4x.
+
+Track 01:  263 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  264 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  265 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  266 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  267 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  268 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  269 of  701 MB written (fifo 100%) [buf 100%]  10.6x.
+
+Track 01:  270 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  271 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  272 of  701 MB written (fifo 100%) [buf 100%]  10.3x.
+
+Track 01:  273 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  274 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  275 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  276 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  277 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  278 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  279 of  701 MB written (fifo 100%) [buf 100%]  10.5x.
+
+Track 01:  280 of  701 MB written (fifo 100%) [buf  99%]  10.1x.
+
+Track 01:  281 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  282 of  701 MB written (fifo 100%) [buf 100%]  10.8x.
+
+Track 01:  283 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  284 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  285 of  701 MB written (fifo 100%) [buf 100%]  10.5x.
+
+Track 01:  286 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  287 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  288 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  289 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  290 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  291 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  292 of  701 MB written (fifo 100%) [buf 100%]  10.7x.
+
+Track 01:  293 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  294 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  295 of  701 MB written (fifo 100%) [buf 100%]  10.4x.
+
+Track 01:  296 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  297 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  298 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  299 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  300 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  301 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  302 of  701 MB written (fifo 100%) [buf 100%]  10.6x.
+
+Track 01:  303 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  304 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  305 of  701 MB written (fifo 100%) [buf 100%]  10.3x.
+
+Track 01:  306 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  307 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  308 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  309 of  701 MB written (fifo 100%) [buf  99%]  10.1x.
+
+Track 01:  310 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  311 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  312 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  313 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  314 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  315 of  701 MB written (fifo 100%) [buf 100%]  10.8x.
+
+Track 01:  316 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  317 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  318 of  701 MB written (fifo 100%) [buf 100%]  10.4x.
+
+Track 01:  319 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  320 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  321 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  322 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  323 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  324 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  325 of  701 MB written (fifo 100%) [buf 100%]  10.7x.
+
+Track 01:  326 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  327 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  328 of  701 MB written (fifo 100%) [buf 100%]  10.4x.
+
+Track 01:  329 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  330 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  331 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  332 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  333 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  334 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  335 of  701 MB written (fifo 100%) [buf 100%]  10.6x.
+
+Track 01:  336 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  337 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  338 of  701 MB written (fifo 100%) [buf 100%]  10.3x.
+
+Track 01:  339 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  340 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  341 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  342 of  701 MB written (fifo 100%) [buf  99%]  10.1x.
+
+Track 01:  343 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  344 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  345 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  346 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  347 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  348 of  701 MB written (fifo 100%) [buf 100%]  10.8x.
+
+Track 01:  349 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  350 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  351 of  701 MB written (fifo 100%) [buf 100%]  10.4x.
+
+Track 01:  352 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  353 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  354 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  355 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  356 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  357 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  358 of  701 MB written (fifo 100%) [buf 100%]  10.7x.
+
+Track 01:  359 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  360 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  361 of  701 MB written (fifo 100%) [buf 100%]  10.3x.
+
+Track 01:  362 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  363 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  364 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  365 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  366 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  367 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  368 of  701 MB written (fifo 100%) [buf 100%]  10.6x.
+
+Track 01:  369 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  370 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  371 of  701 MB written (fifo 100%) [buf 100%]  10.2x.
+
+Track 01:  372 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  373 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  374 of  701 MB written (fifo 100%) [buf 100%]  10.5x.
+
+Track 01:  375 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  376 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  377 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  378 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  379 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  380 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  381 of  701 MB written (fifo 100%) [buf 100%]  10.8x.
+
+Track 01:  382 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  383 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  384 of  701 MB written (fifo 100%) [buf 100%]  10.4x.
+
+Track 01:  385 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  386 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  387 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  388 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  389 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  390 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  391 of  701 MB written (fifo 100%) [buf 100%]  10.6x.
+
+Track 01:  392 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  393 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  394 of  701 MB written (fifo 100%) [buf 100%]  10.3x.
+
+Track 01:  395 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  396 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  397 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  398 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  399 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  400 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  401 of  701 MB written (fifo 100%) [buf 100%]  10.5x.
+
+Track 01:  402 of  701 MB written (fifo 100%) [buf  99%]  10.1x.
+
+Track 01:  403 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  404 of  701 MB written (fifo 100%) [buf 100%]  10.2x.
+
+Track 01:  405 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  406 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  407 of  701 MB written (fifo 100%) [buf 100%]  10.5x.
+
+Track 01:  408 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  409 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  410 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  411 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  412 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  413 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  414 of  701 MB written (fifo 100%) [buf 100%]  10.7x.
+
+Track 01:  415 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  416 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  417 of  701 MB written (fifo 100%) [buf 100%]  10.4x.
+
+Track 01:  418 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  419 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  420 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  421 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  422 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  423 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  424 of  701 MB written (fifo 100%) [buf 100%]  10.6x.
+
+Track 01:  425 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  426 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  427 of  701 MB written (fifo 100%) [buf 100%]  10.3x.
+
+Track 01:  428 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  429 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  430 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  431 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  432 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  433 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  434 of  701 MB written (fifo 100%) [buf 100%]  10.5x.
+
+Track 01:  435 of  701 MB written (fifo 100%) [buf  99%]  10.1x.
+
+Track 01:  436 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  437 of  701 MB written (fifo 100%) [buf 100%]  10.8x.
+
+Track 01:  438 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  439 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  440 of  701 MB written (fifo 100%) [buf 100%]  10.5x.
+
+Track 01:  441 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  442 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  443 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  444 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  445 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  446 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  447 of  701 MB written (fifo 100%) [buf 100%]  10.7x.
+
+Track 01:  448 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  449 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  450 of  701 MB written (fifo 100%) [buf 100%]  10.4x.
+
+Track 01:  451 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  452 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  453 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  454 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  455 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  456 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  457 of  701 MB written (fifo 100%) [buf 100%]  10.6x.
+
+Track 01:  458 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  459 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  460 of  701 MB written (fifo 100%) [buf 100%]  10.3x.
+
+Track 01:  461 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  462 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  463 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  464 of  701 MB written (fifo 100%) [buf  99%]  10.1x.
+
+Track 01:  465 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  466 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  467 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  468 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  469 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  470 of  701 MB written (fifo 100%) [buf 100%]  10.8x.
+
+Track 01:  471 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  472 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  473 of  701 MB written (fifo 100%) [buf 100%]  10.4x.
+
+Track 01:  474 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  475 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  476 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  477 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  478 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  479 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  480 of  701 MB written (fifo 100%) [buf 100%]  10.7x.
+
+Track 01:  481 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  482 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  483 of  701 MB written (fifo 100%) [buf 100%]  10.3x.
+
+Track 01:  484 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  485 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  486 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  487 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  488 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  489 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  490 of  701 MB written (fifo 100%) [buf 100%]  10.6x.
+
+Track 01:  491 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  492 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  493 of  701 MB written (fifo 100%) [buf 100%]  10.3x.
+
+Track 01:  494 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  495 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  496 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  497 of  701 MB written (fifo 100%) [buf  99%]  10.1x.
+
+Track 01:  498 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  499 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  500 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  501 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  502 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  503 of  701 MB written (fifo 100%) [buf 100%]  10.8x.
+
+Track 01:  504 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  505 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  506 of  701 MB written (fifo 100%) [buf 100%]  10.4x.
+
+Track 01:  507 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  508 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  509 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  510 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  511 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  512 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  513 of  701 MB written (fifo 100%) [buf 100%]  10.7x.
+
+Track 01:  514 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  515 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  516 of  701 MB written (fifo 100%) [buf 100%]  10.3x.
+
+Track 01:  517 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  518 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  519 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  520 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  521 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  522 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  523 of  701 MB written (fifo 100%) [buf 100%]  10.6x.
+
+Track 01:  524 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  525 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  526 of  701 MB written (fifo 100%) [buf 100%]  10.2x.
+
+Track 01:  527 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  528 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  529 of  701 MB written (fifo 100%) [buf 100%]  10.5x.
+
+Track 01:  530 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  531 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  532 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  533 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  534 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  535 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  536 of  701 MB written (fifo 100%) [buf 100%]  10.8x.
+
+Track 01:  537 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  538 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  539 of  701 MB written (fifo 100%) [buf 100%]  10.4x.
+
+Track 01:  540 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  541 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  542 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  543 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  544 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  545 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  546 of  701 MB written (fifo 100%) [buf 100%]  10.6x.
+
+Track 01:  547 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  548 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  549 of  701 MB written (fifo 100%) [buf 100%]  10.3x.
+
+Track 01:  550 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  551 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  552 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  553 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  554 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  555 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  556 of  701 MB written (fifo 100%) [buf 100%]  10.5x.
+
+Track 01:  557 of  701 MB written (fifo 100%) [buf  99%]  10.1x.
+
+Track 01:  558 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  559 of  701 MB written (fifo 100%) [buf 100%]  10.2x.
+
+Track 01:  560 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  561 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  562 of  701 MB written (fifo 100%) [buf 100%]  10.5x.
+
+Track 01:  563 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  564 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  565 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  566 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  567 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  568 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  569 of  701 MB written (fifo 100%) [buf 100%]  10.7x.
+
+Track 01:  570 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  571 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  572 of  701 MB written (fifo 100%) [buf 100%]  10.4x.
+
+Track 01:  573 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  574 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  575 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  576 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  577 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  578 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  579 of  701 MB written (fifo 100%) [buf 100%]  10.6x.
+
+Track 01:  580 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  581 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  582 of  701 MB written (fifo 100%) [buf 100%]  10.3x.
+
+Track 01:  583 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  584 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  585 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  586 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  587 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  588 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  589 of  701 MB written (fifo 100%) [buf 100%]  10.5x.
+
+Track 01:  590 of  701 MB written (fifo 100%) [buf  99%]  10.1x.
+
+Track 01:  591 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  592 of  701 MB written (fifo 100%) [buf 100%]  10.8x.
+
+Track 01:  593 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  594 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  595 of  701 MB written (fifo 100%) [buf 100%]  10.5x.
+
+Track 01:  596 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  597 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  598 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  599 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  600 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  601 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  602 of  701 MB written (fifo 100%) [buf 100%]  10.7x.
+
+Track 01:  603 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  604 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  605 of  701 MB written (fifo 100%) [buf 100%]  10.4x.
+
+Track 01:  606 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  607 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  608 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  609 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  610 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  611 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  612 of  701 MB written (fifo 100%) [buf 100%]  10.6x.
+
+Track 01:  613 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  614 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  615 of  701 MB written (fifo 100%) [buf 100%]  10.3x.
+
+Track 01:  616 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  617 of  701 MB written (fifo 100%) [buf  98%]  10.2x.
+
+Track 01:  618 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  619 of  701 MB written (fifo 100%) [buf  99%]  10.1x.
+
+Track 01:  620 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  621 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  622 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  623 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  624 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  625 of  701 MB written (fifo 100%) [buf 100%]  10.8x.
+
+Track 01:  626 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  627 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  628 of  701 MB written (fifo 100%) [buf 100%]  10.4x.
+
+Track 01:  629 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  630 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  631 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  632 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  633 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  634 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  635 of  701 MB written (fifo 100%) [buf 100%]  10.7x.
+
+Track 01:  636 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  637 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  638 of  701 MB written (fifo 100%) [buf 100%]  10.3x.
+
+Track 01:  639 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  640 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  641 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  642 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  643 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  644 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  645 of  701 MB written (fifo 100%) [buf 100%]  10.6x.
+
+Track 01:  646 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  647 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  648 of  701 MB written (fifo 100%) [buf 100%]  10.3x.
+
+Track 01:  649 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  650 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  651 of  701 MB written (fifo 100%) [buf  94%]  10.0x.
+
+Track 01:  652 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  653 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  654 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  655 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  656 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  657 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  658 of  701 MB written (fifo 100%) [buf 100%]  10.8x.
+
+Track 01:  659 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  660 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  661 of  701 MB written (fifo 100%) [buf 100%]  10.4x.
+
+Track 01:  662 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  663 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  664 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  665 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  666 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  667 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  668 of  701 MB written (fifo 100%) [buf 100%]  10.7x.
+
+Track 01:  669 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  670 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  671 of  701 MB written (fifo 100%) [buf 100%]  10.3x.
+
+Track 01:  672 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  673 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  674 of  701 MB written (fifo  96%) [buf  99%]  10.6x.
+
+Track 01:  675 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  676 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  677 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  678 of  701 MB written (fifo 100%) [buf 100%]  10.6x.
+
+Track 01:  679 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  680 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  681 of  701 MB written (fifo 100%) [buf 100%]  10.2x.
+
+Track 01:  682 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  683 of  701 MB written (fifo 100%) [buf  99%]  10.2x.
+
+Track 01:  684 of  701 MB written (fifo 100%) [buf 100%]  10.5x.
+
+Track 01:  685 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  686 of  701 MB written (fifo 100%) [buf  99%]  10.5x.
+
+Track 01:  687 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  688 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  689 of  701 MB written (fifo 100%) [buf  99%]  10.8x.
+
+Track 01:  690 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  691 of  701 MB written (fifo 100%) [buf 100%]  10.8x.
+
+Track 01:  692 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  693 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  694 of  701 MB written (fifo 100%) [buf 100%]  10.4x.
+
+Track 01:  695 of  701 MB written (fifo 100%) [buf  99%]  10.6x.
+
+Track 01:  696 of  701 MB written (fifo 100%) [buf  99%]  10.4x.
+
+Track 01:  697 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  698 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  699 of  701 MB written (fifo 100%) [buf  99%]  10.7x.
+
+Track 01:  700 of  701 MB written (fifo 100%) [buf  99%]  10.3x.
+
+Track 01:  701 of  701 MB written (fifo 100%) [buf 100%]  10.6x.
+
+Track 01: writing  30 KB of pad data.
+Track 01: Total bytes read/written: 735551488/735582208 (359171 sectors).
+
+Writing  time:  489.691s
+
+Average write speed   9.8x.
+Min drive buffer fill was 94%
+Fixating...
+
+WARNING: Some drives don't like fixation in dummy mode.
+Fixating time:    9.445s
+
+error: cdrecord: fifo had 11586 puts and 11586 gets.
+cdrecord: fifo was 0 times empty and 11489 times full, min fill was 89%.

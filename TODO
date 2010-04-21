@@ -1,0 +1,58 @@
+TODO freedom toaster 
+
+- napravi rezanje
+
+cdrecord -v dev=1000,0,0 --blank=fast
+
+cdrecord -v -pad speed=8 -dummy dev=1000,0,0 /tmp/burn_image.iso
+
+
+p = subprocess.Popen("ls -1", shell=True, stdout=subprocess.PIPE)  
+out =p.stdout.read().strip()
+
+
+
+import subprocess
+proc = subprocess.Popen("cdrecord -v dev=1000,0,0 --blank=fast",stdout=subprocess.PIPE)
+ proc = subprocess .Popen([ls],stdout=subprocess.PIPE)
+ print proc.stdout.read()
+
+- daj timeout iz cdrecorda od 10sec da covek moze da se predomisli kada:
+	-brise cdrw
+	-pocinje rezanje
+
+
+(?!^[\D]*)[\d]{2,}(?![\D]*$)
+(?!^[\D]*)[\d]{2,}(?![\D]*$)
+
+(^Track .*?\d*\D*)(\d{1,})(?:\D*of.*?)(\d{1,})(?:.*?MB written.*$)
+
+Track 01:    1 of  701 MB written (fifo 100%) [buf  99%]   8.9x.
+
+(?!^"Track "[\d\d].*)[\d]{1,}(?!.*"of".*)[\d]{1,}(?!"MB written".*$)
+
+
+import re
+
+# common variables
+
+rawstr = r"""(?:^Track .*?\d*\D*)(\d{1,})(?:\D*of.*?)(\d{1,})(?:.*?MB written.*$)"""
+embedded_rawstr = r"""(?:^Track .*?\d*\D*)(\d{1,})(?:\D*of.*?)(\d{1,})(?:.*?MB written.*$)"""
+matchstr = """Track 01:  686 of  701 MB written (fifo 100%) [buf  99%]  10.5x."""
+
+# method 1: using a compile object
+compile_obj = re.compile(rawstr)
+match_obj = compile_obj.search(matchstr)
+
+# method 2: using search function (w/ external flags)
+match_obj = re.search(rawstr, matchstr)
+
+# method 3: using search function (w/ embedded flags)
+match_obj = re.search(embedded_rawstr, matchstr)
+
+# Retrieve group(s) from match_obj
+all_groups = match_obj.groups()
+
+# Retrieve group(s) by index
+group_1 = match_obj.group(1)
+group_2 = match_obj.group(2)

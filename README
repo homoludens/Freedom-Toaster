@@ -1,0 +1,11 @@
+freedom toaster
+
+http://freedomtoaster.org
+
+based on pyqt4-demo (and qt4-demo graphic)
+
+intended use is with touchscreen kiosk for burning preprepared isos.
+
+has a lot of unnecessary files. will clean it up eventualy.
+
+main file is in examples/tools/qtdemo/qtdemo.py
